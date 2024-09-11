@@ -1,0 +1,24 @@
+# Ignorar archivos y directorios generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de configuración local
+config.local
+
+# Ignorar archivos y directorios de dependencias
+/node_modules
+/build
+
+# Ignorar archivos de compilación
+/build
+/dist
+
+# Ignorar archivos de registro y caché
+/log
+/cache
+
+# Ignorar archivos de credenciales
+.env
+
+# Ignorar gulpfile
+gulpfile.js

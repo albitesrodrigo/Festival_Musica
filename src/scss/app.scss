@@ -1,0 +1,4 @@
+// @use 'base/variables' as v; // usamos use para acceder al contenido de variables.scss
+// @forward 'basea/normlize'; // usamos forward para traer todo el contenido de normalize.scss
+@forward 'base';
+@forward 'layout';
